@@ -212,18 +212,19 @@ function closeNav() {
 
 				echo "</tr>";
 			}
+
 		echo "</table>";
 		}
 		if(isset($_POST['submit1']))
 		{
 			if(isset($_SESSION['login_user']))
-			{
+            {
 				mysqli_query($db,"DELETE from books where bid = '$_POST[bid]'; ");
 				?>
 					<script type="text/javascript">
 						alert("Delete Successful.");
 					</script>
-				<?
+				<?php
 			}
 			else
 			{
@@ -231,7 +232,7 @@ function closeNav() {
 					<script type="text/javascript">
 						alert("Please Login First.");
 					</script>
-				<?
+				<?php
 			}
 		}
 		

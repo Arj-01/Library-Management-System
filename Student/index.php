@@ -17,6 +17,7 @@
 		float: right;
 		word-spacing: 30px;
 		padding: 20px;
+		
 	}
 	nav li 
 	{
