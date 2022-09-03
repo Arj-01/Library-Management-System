@@ -21,7 +21,7 @@
 	nav li 
 	{
 		display: inline-block;
-		line-height: 80px;
+		line-height: 81px;
 	}
 </style>
 </head>
