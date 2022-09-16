@@ -17,6 +17,11 @@
   transition: background-color .5s;
 }
 
+body
+    	{
+			height:800x;
+			background-color:#008080;
+}
 .sidenav {
   height: 100%;
   margin-top: 50px;

@@ -77,6 +77,15 @@
 	height: 50px;
 	background-color: #00544c;
 }
+body
+    	{
+			height:800x;
+		
+    		background-image: url("images/25.jpeg");
+    		background-repeat: no-repeat;
+			background-size: cover;
+			background-color:#008080;
+    	}
 
 	</style>
 
@@ -124,6 +133,7 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
   document.body.style.backgroundColor = "white";
 }
+
 </script>
 	<!--___________________search bar________________________-->
 
@@ -243,6 +253,7 @@ function closeNav() {
 		}
 
 	?>
+
 </div>
 </body>
 </html>

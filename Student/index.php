@@ -32,7 +32,7 @@
 	<div class="wrapper">
 		<header>
 		<div class="logo">
-			<img src="images/9.png">
+			<img src="images/15.png">
 			<h1 style="color: white;">ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
 		</div>
 
@@ -74,7 +74,7 @@
 			<br><br><br>
 			<div class="box">
 				<br><br><br><br>
-				<h1 style="text-align: center; font-size: 35px;">Welcom to library</h1><br><br>
+				<h1 style="text-align: center; font-size: 35px;">IIT INDORE WELCOMES YOU</h1><br><br>
 				<h1 style="text-align: center;font-size: 25px;">Opens at: 09:00 </h1><br>
 				<h1 style="text-align: center;font-size: 25px;">Closes at: 15:00 </h1><br>
 			</div>

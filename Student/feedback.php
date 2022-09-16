@@ -17,8 +17,12 @@
     <style type="text/css">
     	body
     	{
-    		background-image: url("images/66.jpg");
+			height:700x;
+		
+    		background-image: url("images/66.jpeg");
     		background-repeat: no-repeat;
+			background-size: cover;
+			background-color:#008080;
     	}
     	.wrapper
     	{
@@ -29,10 +33,12 @@
     		background-color: black;
     		opacity: .8;
     		color: white;
+			flex:1;
+		
     	}
     	.form-control
     	{
-    		height: 70px;
+    		height: 80px;
     		width: 60%;
     	}
     	.scroll

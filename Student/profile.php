@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 	include "connection.php";
 	include "navbar.php";
  ?>
@@ -9,13 +9,17 @@
  	<style type="text/css">
  		.wrapper
  		{
- 			width: 300px;
+ 			width: 500px;
+			 height: 610px;
  			margin: 0 auto;
  			color: white;
+			 opacity: 0.7;
+
+
  		}
  	</style>
  </head>
- <body style="background-color: #004528; ">
+ <body style="background-image: url('images/17.jpeg')">
  	<div class="container">
  		<form action="" method="post">
  			<button class="btn btn-default" style="float: right; width: 70px;" name="submit1">Edit</button>

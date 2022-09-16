@@ -11,7 +11,7 @@
 		body
 		{
 			height: 650px;
-			background-image: url("images/7.jpg");
+			background-image: url("images/17.jpeg");
 			background-repeat: no-repeat;
 		}
 		.wrapper
