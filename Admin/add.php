@@ -21,7 +21,15 @@
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
-
+body
+    	{
+			height:800x;
+		
+    		background-image: url("images/25.jpeg");
+    		background-repeat: no-repeat;
+			background-size: cover;
+			background-color:#008080;
+    	}
 .sidenav {
   height: 100%;
   margin-top: 50px;
@@ -114,7 +122,7 @@
             </div><br><br>
 
  <div class="h"> <a href="add.php">Add Books</a> </div> 
-  <div class="h"> <a href="delete.php">Delete Books</a></div>
+
   <div class="h"> <a href="request.php">Book Request</a></div>
   <div class="h"> <a href="issue_info.php">Issue Information</a></div>
 </div>
@@ -142,7 +150,7 @@
     {
       if(isset($_SESSION['login_user']))
       {
-        mysqli_query($db,"INSERT INTO books VALUES ('$_POST[bid]', '$_POST[name]', '$_POST[authors]', '$_POST[edition]', '$_POST[status]', '$_POST[quantity]', '$_POST[department]') ;");
+        mysqli_query($db,"INSERT INTO boo`ks VALUES ('$_POST[bid]', '$_POST[name]', '$_POST[authors]', '$_POST[edition]', '$_POST[status]', '$_POST[quantity]', '$_POST[department]') ;");
         ?>
           <script type="text/javascript">
             alert("Book Added Successfully.");

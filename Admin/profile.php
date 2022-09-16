@@ -9,9 +9,13 @@
  	<style type="text/css">
  		.wrapper
  		{
- 			width: 300px;
+ 			width: 500px;
+			 height: 610px;
  			margin: 0 auto;
  			color: white;
+			 opacity: 0.7;
+
+
  		}
  	</style>
  </head>
@@ -41,7 +45,7 @@
  				$row=mysqli_fetch_assoc($q);
 
  				echo "<div style='text-align: center'>
- 					<img class='img-circle profile-img' height=110 width=120 src='images/".$_SESSION['pic']."'>
+				   <img class='img-circle profile-img' height=120 width=120 src='images/11.jpeg'>
  				</div>";
  			?>
  			<div style="text-align: center;"> <b>Welcome, </b>

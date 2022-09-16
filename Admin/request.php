@@ -29,7 +29,15 @@
   	font-family: "Lato", sans-serif;
   	transition: background-color .5s;
 }
-
+body
+    	{
+			height:800x;
+		
+    		background-image: url("images/25.jpeg");
+    		background-repeat: no-repeat;
+			background-size: cover;
+			background-color:#008080;
+    	}
 .sidenav {
   height: 100%;
   margin-top: 50px;

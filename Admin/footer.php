@@ -11,7 +11,7 @@
 	footer
 	{
 		height: 200px;
-		width: 1361px;
+		width: 100%;
 		background-color: black;
 	}
 		.fa

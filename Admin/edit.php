@@ -14,7 +14,7 @@
 		}
 		.form1
 		{
-			margin:0 540px;
+			margin:0 600px;
 		}
 		label
 		{
@@ -23,7 +23,7 @@
 
 	</style>
 </head>
-<body style="background-color: #004528;">
+<body style="background-color: black">
 
 	<h2 style="text-align: center;color: #fff;">Edit Information</h2>
 	<?php
