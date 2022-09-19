@@ -27,7 +27,7 @@
 			background-image: url("images/1111.jpg");
 			background-repeat: no-repeat;
   	font-family: "Lato", sans-serif;
-  	transition: background-color .5s;
+  	transition: "background-color" .5s;
 }
 
 .sidenav {
@@ -66,7 +66,7 @@
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: "margin-left" .5s;
   padding: 16px;
 }
 
@@ -165,9 +165,9 @@
   {
     mysqli_query($db,"UPDATE  `issue_book` SET  `approve` =  '$_POST[approve]', `issue` =  '$_POST[issue]', `return` =  '$_POST[return]' WHERE username='$_SESSION[name]' and bid='$_SESSION[bid]';");
 
-    mysqli_query($db,"UPDATE books SET quantity = quantity-1 where bid='$_SESSION[bid]' ;");
+    mysqli_query($db,"UPDATE `books` SET quantity = quantity-1 where bid='$_SESSION[bid]' ;");
 
-    $res=mysqli_query($db,"SELECT quantity from books where bid='$_SESSION[bid];");
+    $res=mysqli_query($db,"SELECT quantity from `books` where bid='$_SESSION[bid]';");
 
     while($row=mysqli_fetch_assoc($res))
     {
