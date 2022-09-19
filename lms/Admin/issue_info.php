@@ -120,7 +120,7 @@ th,td
                 { 	echo "<img class='img-circle profile_img' height=120 width=120 src='images/".$_SESSION['pic']."'>";
                     echo "</br></br>";
 
-                    echo "Welcome ".$_SESSION['login_user']; 
+                    echo "Welcome " .$_SESSION['login_user']; 
                 }
                 ?>
             </div><br><br>
@@ -189,7 +189,7 @@ th,td
 
           mysqli_query($db,"UPDATE issue_book SET approve='$var' where `return`='$row[return]' and approve='Yes' limit $c;");
           
-          echo $d."</br>";
+          "</br>";
         }
 
         echo "<tr>";
