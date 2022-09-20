@@ -199,9 +199,9 @@ th,td
 
 
           $var1='<p style="color:yellow; background-color:green;">RETURNED</p>';
-          mysqli_query($db,"UPDATE issue_book SET approve='$var1' where username='$_POST[username]' and bid='$_POST[bid]' ");
+          mysqli_query($db,"UPDATE issue_book SET approve='$var1' where username='$_POST[username]' and bid='$_POST[bid]';");
 
-          mysqli_query($db,"UPDATE books SET quantity = quantity+1 where bid='$_POST[bid]' ");
+          mysqli_query($db,"UPDATE books SET quantity = quantity+1 where bid='$_POST[bid]';");
           
         }
       }
