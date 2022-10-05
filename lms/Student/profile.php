@@ -43,7 +43,7 @@
  				$row=mysqli_fetch_assoc($q);
 
  				echo "<div style='text-align: center'>
- 					<img class='img-circle profile-img' height=110 width=120 src='images/".$_SESSION['pic']."'>
+ 					<img class='img-circle profile-img' height=110 width=120 src='images/11.jpeg'>
  				</div>";
  			?>
  			<div style="text-align: center;"> <b>Welcome, </b>
